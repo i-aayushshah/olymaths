@@ -24,8 +24,8 @@ if(isset($_POST['answers'])){
     // Retrieve the question from the form submission
     $answer = $_POST["answer"];
     $aid = $_POST["question_id"];
-    
- 
+
+
 
     // Check if a profile photo was uploaded
     $profilePhotoUploaded = isset($_SESSION["profile"]) && $_SESSION["profile"] !== null && $_SESSION["profile"] !== "";
@@ -80,7 +80,7 @@ if(isset($_POST['answers'])){
     // Execute the query
     if (mysqli_stmt_execute($stmt)) {
         // Redirect to home.php or display a success message
-        echo '<script>window.location.href = "home.php#answeritem";</script>';
+        echo '<script>window.location.href = "discussion.php#answeritem";</script>';
         exit();
     } else {
         // Display error message

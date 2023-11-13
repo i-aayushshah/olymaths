@@ -32,7 +32,7 @@ if($email != false && $password != false){
     <link rel="stylesheet" href="qa.css" />
     <link rel="stylesheet" href="header_1.css" />
     <link rel="stylesheet" href="feed_1.css" />
-    <script src="/header.js"></script>
+    <script src="header.js"></script>
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
     <style>
